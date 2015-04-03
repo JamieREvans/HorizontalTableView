@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'HorizontalTableView', :exclusive => true do
+  pod "HorizontalTableView", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "HorizontalTableView", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end

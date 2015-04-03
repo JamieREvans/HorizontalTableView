@@ -1,38 +1,18 @@
-#
-# Be sure to run `pod lib lint HorizontalTableView.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = "HorizontalTableView"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of HorizontalTableView."
-  s.description      = <<-DESC
-                       An optional longer description of HorizontalTableView
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/HorizontalTableView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.name             = "HorizontalTableView"
+  s.version          = "1.0.0"
+  s.summary          = "A real UITableView that scrolls horizontally / sideways"
+  s.homepage         = "https://github.com/JamieREvans/HorizontalTableView"
   s.license          = 'MIT'
   s.author           = { "Jamie Riley Evans" => "jamie.riley.evans@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/HorizontalTableView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/JamieREvans/HorizontalTableView.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'HorizontalTableView' => ['Pod/Assets/*.png']
-  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'UIKitPlus', '~> 1.0.0'
+	
 end

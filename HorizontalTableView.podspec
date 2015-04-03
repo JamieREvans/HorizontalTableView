@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name             = "HorizontalTableView"
   s.version          = "1.0.0"
-  s.summary          = "A real UITableView that scrolls horizontally / sideways"
+  s.summary          = "A UITableView that scrolls horizontally / sideways"
   s.homepage         = "https://github.com/JamieREvans/HorizontalTableView"
   s.license          = 'MIT'
   s.author           = { "Jamie Riley Evans" => "jamie.riley.evans@gmail.com" }
